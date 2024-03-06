@@ -11,7 +11,7 @@ export default function ChatHistory({ chatHistory }) {
   return (
     <>
       {/* <h1>Chat History</h1> */}
-      <section className="flex flex-col ">
+      <section className="flex flex-col gap-3">
         {chatHistory.map((message, index) => (
           <ChatBubble key={index} message={message.text} role={message.role} />
         ))}

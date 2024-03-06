@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="box-border h-screen">
       <body className=" w-full m-0 p-2 h-full">
         <MainNav />
-        <main className="flex flex-col items-center justify-between h-full">
+        <main className="flex flex-col items-center justify-between h-full mt-20">
           {children}
         </main>
         <footer></footer>
