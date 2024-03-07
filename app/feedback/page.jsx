@@ -31,7 +31,7 @@ export default function About() {
   }
 
   return (
-    <section className="rounded bg-[#022639] m-2 w-full p-5 flex flex-col items-center">
+    <section className="rounded bg-[#e6eaed] dark:bg-[#022639] m-2 w-full p-5 flex flex-col items-center">
       {recieved && <h1 className="text-2xl">Thank your for your feedback!</h1>}
       {!recieved && (
         <>

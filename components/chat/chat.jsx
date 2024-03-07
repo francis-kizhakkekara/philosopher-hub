@@ -56,7 +56,7 @@ export default function Chat() {
   }
 
   return (
-    <section className="rounded-md flex flex-col items-center bg-[#023047] w-full h  m-2 p-1">
+    <section className="rounded-md flex flex-col items-center bg-[#e6eaed] dark:bg-[#023047] w-full h  m-2 p-1">
       <h1 className="text-2xl">Chat</h1>
       {!currentPhil && (
         <p>
