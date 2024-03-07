@@ -31,7 +31,7 @@ export default function About() {
   }
 
   return (
-    <section className="rounded bg-slate-900 m-2 w-full p-5 flex flex-col items-center">
+    <section className="rounded bg-[#022639] m-2 w-full p-5 flex flex-col items-center">
       {recieved && <h1 className="text-2xl">Thank your for your feedback!</h1>}
       {!recieved && (
         <>
@@ -75,7 +75,7 @@ export default function About() {
 
             <button
               type="submit"
-              className="mt-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="mt-5 text-black bg-[#8ECAE6] hover:bg-[#219EBC] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-[#8ECAE6]dark:hover:bg-[#219EBC] dark:focus:ring-blue-800"
               onClick={feedbackHandler}
             >
               Submit

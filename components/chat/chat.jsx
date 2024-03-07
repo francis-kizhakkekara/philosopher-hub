@@ -27,7 +27,7 @@ export default function Chat() {
       }),
     });
     const data = await res.json();
-    console.log(data);
+    // console.log(data);
     setLoading(false);
     setChatHistory(data);
     userInputRef.current.focus();
@@ -49,14 +49,14 @@ export default function Chat() {
       }),
     });
     const data = await res.json();
-    console.log(data);
+    // console.log(data);
     setLoading(false);
     setChatHistory(data);
     userInputRef.current.focus();
   }
 
   return (
-    <section className="rounded-md flex flex-col items-center bg-slate-900 w-full h  m-2 p-1">
+    <section className="rounded-md flex flex-col items-center bg-[#023047] w-full h  m-2 p-1">
       <h1 className="text-2xl">Chat</h1>
       {!currentPhil && (
         <p>
